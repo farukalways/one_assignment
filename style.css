@@ -66,7 +66,7 @@ background: rgb(13, 19, 33);
   width: 85%;
   height: auto;
   margin: 0 auto;
-  padding: 80px 97px;
+  /* padding: 3% 97px; */
   text-align: center;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
@@ -90,3 +90,22 @@ background: rgb(13, 19, 33);
  .second_child_img{
   width: 30%;
  }
+#third_section{
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.my_inspiration{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.third_section_area{
+  text-align: center;
+  padding: 0 10%;
+}
+.third_section_area > a > img{
+  width: 60%;
+  margin-bottom: 30px;
+}
