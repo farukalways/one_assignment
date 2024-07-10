@@ -5,10 +5,21 @@
   font-family: "Azeret Mono", monospace;
 }
   /* sheared property */
+  .size_color{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+  }
+  .heaading_font_size{
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    padding: 14px 0;
+  }
   .nav_sheared{
     color: rgb(13, 19, 33);
     text-decoration: none;
-    padding: 20px 28px;
+    padding: 0 28px;
   }
   .margin_buttom{
     margin-bottom: 30px;
@@ -16,7 +27,7 @@
   /*===- navber -=== */
 .nav_container{
   width: 90%;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 .nav_area{
   margin: 10px 18px;
@@ -31,7 +42,7 @@
 .Download_Resume{
   font-size: 16px;
   font-weight: 600;
-  padding: 17px 24px;
+  padding: 12px 18px;
   border: 2px solid rgb(13, 19, 33) ;
   border-radius: 8px;
 }
@@ -50,23 +61,29 @@
   width: 70%;
   margin: 0 auto;
 }
+.frist_section_heading{
+  color: rgb(13, 19, 33);
+ font-size: 48px;
+ font-weight: 800;
+}
 .frist_section_area .frist_section_img, .frist_section_heading, .frist_section_discribstion, .Frist_section_btn {
   padding: 30px;
   margin-bottom: 30px;
 }
 .Frist_section_btn{
+padding: 14px 16px;
 color: rgb(255, 255, 255);
 font-size: 20px;
 font-weight: 600;
 border-radius: 14px;
 background: rgb(13, 19, 33);
+text-decoration: none;
  }
            /*======- start second section -============ */
  #second_section{
   width: 85%;
   height: auto;
   margin: 0 auto;
-  /* padding: 3% 97px; */
   text-align: center;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
@@ -76,12 +93,23 @@ background: rgb(13, 19, 33);
   }
  .second_child_container{
   margin-bottom:50px ;
+  padding: 0 25px;
   background-color: #fff;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 220px;
+  height: 280px;
+ }
+ .second_section_btn{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(13, 19, 33);
+  border: 1px solid rgb(13, 19, 33);
+  background-color: #fff;
+  cursor: pointer;
  }
  .second_child_discribtion{
   width: 64%;
@@ -155,4 +183,65 @@ background: rgb(13, 19, 33);
   margin-top: 20px;
   color: rgb(13, 19, 33);
   line-height: 40px;
+}
+/*=====- fifth_section_img -=====*/
+#fifth_section{
+  width: 85%;
+  height: 313px;
+  padding: 48px 64px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 16px;
+  background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(img/handshake.jpg);
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 30px;
+}
+.fifth_section_title{
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.fifth_input_text{
+ margin: 30px 0;
+ padding: 10px 80px 10px 36px;
+ text-align: left;
+ border: 1px solid rgba(13, 19, 33, 0.15);
+ border-radius: 8px;
+ background: rgb(255, 255, 255);
+
+}
+
+.fifth_input_button{
+  padding: 10px 20px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  margin: 30px 0;
+}
+/*===== footer area ======*/
+#footer_area{
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+
+}
+.foortr_container{
+  width: 85%;
+  margin: 0 auto;
+  padding: 2% 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foortr_container ul li{
+  display: inline-block;
+  margin-right: 20px;
 }
