@@ -90,6 +90,7 @@ background: rgb(13, 19, 33);
  .second_child_img{
   width: 30%;
  }
+/*=====- third_section_area -===== */
 #third_section{
   width: 85%;
   margin: 0 auto;
@@ -108,4 +109,50 @@ background: rgb(13, 19, 33);
 .third_section_area > a > img{
   width: 60%;
   margin-bottom: 30px;
+}
+/*=====- fourth_section_area -=====*/
+#fourth_section{
+  width: 85%;
+  margin: 50px auto;
+  border: 2px solid red;
+}
+.fourth_section_h2_p{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+.fourth_section_tite{
+  line-height: 37px;
+}
+.fourth_section_discribtion{
+  line-height: 27px;
+}
+.skills_section{
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.skill{
+  padding: 50px;
+}
+.skill_html{
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.skill_css{
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.skill_java{
+  border-radius: 16px;
+   background: rgba(255, 223, 0, 0.05);
+}
+.skill_btn{
+  font-size: 16px;
+  Font-weight: 700;
+  margin-top: 20px;
+  color: rgb(13, 19, 33);
+  line-height: 40px;
 }
