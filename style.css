@@ -10,6 +10,9 @@
     text-decoration: none;
     padding: 20px 28px;
   }
+  .margin_buttom{
+    margin-bottom: 30px;
+  }
   /*===- navber -=== */
 .nav_container{
   width: 90%;
@@ -41,19 +44,49 @@
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
+  margin: 50px 0;
 }
 .frist_section_area {
   width: 70%;
   margin: 0 auto;
 }
-.frist_section_area img, h1, p, button {
+.frist_section_area .frist_section_img, .frist_section_heading, .frist_section_discribstion, .Frist_section_btn {
   padding: 30px;
   margin-bottom: 30px;
 }
- button{
+.Frist_section_btn{
 color: rgb(255, 255, 255);
 font-size: 20px;
 font-weight: 600;
 border-radius: 14px;
 background: rgb(13, 19, 33);
+ }
+           /*======- start second section -============ */
+ #second_section{
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  padding: 80px 97px;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+ }  
+  .second_container{
+    padding: 4%;
+  }
+ .second_child_container{
+  margin-bottom:50px ;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 220px;
+ }
+ .second_child_discribtion{
+  width: 64%;
+  text-align: left;
+ }
+ .second_child_img{
+  width: 30%;
  }
